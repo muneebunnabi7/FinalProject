@@ -53,7 +53,6 @@ public class PathController
     {
    	 return new ModelAndView("HomeAbout");
     }
-	
 	@RequestMapping("/hleg")
     public ModelAndView konwLeg()
     {

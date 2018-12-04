@@ -133,10 +133,10 @@ a {
     <i class="fas fa-file-signature"></i><label for="firstname"><b>First Name</b></label>
     <input type="text" placeholder="First Name" name="fname" required>
 
-     <i class="fas fa-file-signature"><label for="middlename"><b>Middle Name</b></label>
+    <label for="middlename"><b>Middle Name</b></label>
     <input type="text" placeholder="Middle Name" name="mname" required>
 
-    <i class="fas fa-file-signature"><label for="lastname"><b>Last Name</b></label>
+    <label for="lastname"><b>Last Name</b></label>
     <input type="text" placeholder="Last Name" name="lname" required>
 
 
