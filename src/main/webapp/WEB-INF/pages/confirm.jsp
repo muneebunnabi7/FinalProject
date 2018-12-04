@@ -12,7 +12,8 @@
 <body>
   <h3>Registration syccessfull:</h3>
        <h4>Your Regestration number is: ${regnum}</h4>
-       <a href="statuscheckup">press here for status check</a>
+       <!--  <a href="statuscheckup">press here for status check</a>-->
+        <a href="statuscheckup">press here for status check</a>
   
 </body>
 </html>

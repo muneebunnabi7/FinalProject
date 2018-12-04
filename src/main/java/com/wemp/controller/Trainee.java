@@ -41,7 +41,7 @@ TraineeDao edao;
  */
 @RequestMapping(value="/Register" , method = RequestMethod.POST)
 public ModelAndView traineeInfo(@ModelAttribute TraineeModel tm,AddressModel am,CourseModel mo ,@RequestParam("file") MultipartFile file) {
-	
+	System.out.println("hii");
 	String strpass=tm.getPass();
 	TraineeService ser= new  TraineeService();
 	String encrp=ser.encripPass(strpass);

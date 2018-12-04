@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Trainee Login</title>
+<title>User Login</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
@@ -23,9 +23,9 @@
  <div >
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="Verify">
 					<span class="login100-form-title p-b-33">
-						Trainee Login
+						User Login
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -51,8 +51,8 @@
 							Forgot
 						</span>
 
-						<a href="#" class="txt2 hov1">
-							Username / Password?
+						<a href="forget" class="txt2 hov1">
+							 Password?
 						</a>
 					</div>
 

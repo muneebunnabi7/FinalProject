@@ -12,8 +12,6 @@
 <body>
        
        <form action="forpas">
-       Adhar Number:
-           <input type="text" name =aadhar palceholder="Aadhar Number"><br>
             Question: <select name ="question">
                                   <option value="What is your birthplace">What is your birthplace</option>
                                   <option value="What is your favorite game">What is your favorite game</option>

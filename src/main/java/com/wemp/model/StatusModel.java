@@ -8,7 +8,7 @@ package com.wemp.model;
  */
 public class StatusModel 
 {
-	private long gpt_rid;
+	private long    gpt_rid;
 	private String gpt_firstname;
 	private String gpt_middlename;
 	private String gpt_lastname;

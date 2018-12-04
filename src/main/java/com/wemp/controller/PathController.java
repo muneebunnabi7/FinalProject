@@ -33,13 +33,41 @@ public class PathController
    	 return new ModelAndView("forgetpassword");
     }
 	@RequestMapping("/hadmin")
+    public ModelAndView adminHome()
+    {
+   	 return new ModelAndView("HomeAdmin");
+    }
+	@RequestMapping("/applicant")
     public ModelAndView adminLogin()
     {
    	 return new ModelAndView("AdminLogin");
     }
+	
 	@RequestMapping("/statuscheckup")
     public ModelAndView konwStatus()
     {
-   	 return new ModelAndView("statuscheck");
+   	 return new ModelAndView("traineelogin");
+    }
+	@RequestMapping("/habout")
+    public ModelAndView konwAbout()
+    {
+   	 return new ModelAndView("HomeAbout");
+    }
+	
+	@RequestMapping("/hleg")
+    public ModelAndView konwLeg()
+    {
+   	 return new ModelAndView("HomeLeg");
+    }
+	
+	@RequestMapping("/StepStatus")
+    public ModelAndView userStatus()
+    {
+   	 return new ModelAndView("traineelogin");
+    }
+	@RequestMapping("applicants")
+    public ModelAndView userList()
+    {
+   	 return new ModelAndView("viewapplicant");
     }
 }

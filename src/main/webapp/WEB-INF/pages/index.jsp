@@ -10,6 +10,8 @@
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" type="text/css" href="bootstrap/main_styles.css">
 <link rel="stylesheet" type="text/css" href="bootstrap/responsive.css">
 <link rel="stylesheet" type="text/css" href="css/test.css">
@@ -30,10 +32,11 @@
 						<div class="col">
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 								<ul class="top_bar_contact_list">
+								
 									<li><div class="topnav" id="myTopnav" ><a href="index.jsp">Home</a></div></li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="topnav" id="myTopnav" ><a href="logout">Logout</a></div>
+									<div class="topnav" id="myTopnav" ><a href="contact">Contact Us</a></div>
 								</div>
 							</div>
 						</div>
@@ -61,7 +64,7 @@
 							&nbsp;
 							&nbsp;
 							&nbsp;
-							<p> <h2>Non Governmental Organizations</h2></p>  
+							<p> <h2>Ministry Of Women And Child Development</h2></p>  
 
 						</div>
 					</div>
@@ -78,18 +81,16 @@
 							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
 								<ul class="top_bar_contact_list">
 									<nav class="main_nav_contaner ml-auto">
-									<ul class="topnav" id="myTopnav" align=center;>
-									<a href="StepAbout">About Us</a>
-									<a href="StepGlines">About Us</a>
-									<a href="StepTS">Training Sectors</a>
-									<a href="StepNGO">NGOs</a>
-									<a href="StepReg">Registration</a>
-									<a href="StepStatus">Status</a>
-									<a href="StepFAQ">FAQ</a>
+								<ul class="topnav" id="myTopnav" align=center;>
+									<a href="habout">About Us</a>
+									<a href="hleg">Legislations & policy</a>
+									<a href="hstep">STEP Scheme</a>
+									<a href="hngo">NGOs</a>
+									<a href="hadmin">Admin</a>
+									<a href="hfaq">FAQ</a>
 									<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 							</a>
 								</ul>
-								
 							</nav>
 								</ul>
 							</div>
@@ -190,7 +191,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 </div>
-
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
